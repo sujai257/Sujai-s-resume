@@ -1,0 +1,30 @@
+/* ... Your existing CSS ... */
+
+/* Additional Styling for Enhanced Look */
+body {
+    background-color: #f0f0f0;
+}
+
+.header-content {
+    text-align: center;
+    padding: 4rem 0;
+    color: #131212;
+}
+
+.section-content {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
